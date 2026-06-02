@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índices Financeiros - 2019 até Hoje</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>📊 Índices Financeiros</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#indices" class="nav-link">Índices</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Acompanhe os Índices Financeiros</h2>
+            <p>Dados financeiros desde 2019 com atualizações contínuas</p>
+            <button class="btn" onclick="document.getElementById('indices').scrollIntoView({behavior: 'smooth'})">
+                Ver Dados
+            </button>
+        </div>
+    </section>
+
+    <section id="indices" class="indices-section">
+        <div class="container">
+            <h2>Índices Disponíveis</h2>
+            <div class="indices-grid" id="indicesGrid">
+                <div class="index-card loading">
+                    <p>Carregando dados...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Este Projeto</h2>
+            <p>
+                Plataforma dedicada ao acompanhamento contínuo de índices financeiros brasileiros e internacionais
+                desde 2019. Dados atualizados regularmente para análise e consulta.
+            </p>
+            <div class="features">
+                <div class="feature">
+                    <h3>📈 Dados Precisos</h3>
+                    <p>Informações confiáveis e atualizadas</p>
+                </div>
+                <div class="feature">
+                    <h3>🔄 Atualizações Automáticas</h3>
+                    <p>Deploy contínuo via GitHub Pages</p>
+                </div>
+                <div class="feature">
+                    <h3>📱 Responsivo</h3>
+                    <p>Funciona em qualquer dispositivo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Índices Financeiros. Desenvolvido com ❤️</p>
+            <p>
+                <a href="https://github.com/cadurod2012-afk/indices-financeiros" target="_blank">
+                    Ver no GitHub
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
